@@ -45,7 +45,7 @@ class SearchBar extends Component {
                         className="form-control"
                     />
                     <span className="input-group-btn">
-                            <button className="btn btn-default" type="submit">Search</button>
+                            <button className="btn btn-danger" type="submit">Search</button>
                 </span>
                 </form>
             </div>

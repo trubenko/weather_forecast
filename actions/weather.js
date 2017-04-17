@@ -4,9 +4,6 @@ import axios from 'axios';
 
 export const WEATHER_ACTION = 'WEATHER_ACTION';
 
-console.log('asf');
-
-
 export function searchCity(city) {
     const url = `${ROOT_URL}&q=${city},ua`;
     const weather = axios.get(url);
