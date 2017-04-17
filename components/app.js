@@ -2,15 +2,16 @@ import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 
 import SearchBar from '../containers/search-bar';
+import WeatherList from '../containers/weather-list';
 
-import { Provider} from 'react-redux';
+import {Provider} from 'react-redux';
 
 import ReduxPromise from 'redux-promise';
-import { createStore , applyMiddleware } from 'redux';
+import {createStore, applyMiddleware} from 'redux';
 import reducers from '../reducers/index';
 
 
-const createStoreWithMiddleware =  applyMiddleware(ReduxPromise)(createStore);
+const createStoreWithMiddleware = applyMiddleware(ReduxPromise)(createStore);
 
 
 class App extends Component {
@@ -20,7 +21,10 @@ class App extends Component {
 
         return (
             <Provider store={createStoreWithMiddleware(reducers)}>
-                <SearchBar />
+                <div>
+                    <SearchBar />
+                    <WeatherList/>
+                </div>
             </Provider>
         )
     }
