@@ -29,8 +29,8 @@ class SearchBar extends Component {
         event.preventDefault();
 
         this.props.searchCity(this.state.term);
+        this.setState({ term: ''});
 
-        this.setState({ term: ''})
     }
 
     render() {
@@ -43,6 +43,7 @@ class SearchBar extends Component {
                         placeholder="Get a five-day forecast in your favorite city"
                         onChange={ this.onInputChange }
                         className="form-control"
+                        value={this.state.term}
                     />
                     <span className="input-group-btn">
                             <button className="btn btn-danger" type="submit">Search</button>
