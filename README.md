@@ -3,8 +3,8 @@
 - react
 - redux
 - react-redux
-- axios
 - react-sparklines
+- axios
 
 
 # Weather Forecast
