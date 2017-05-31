@@ -20,5 +20,11 @@ module.exports = {
 
         ]
     },
-    watch: true
+    devServer: {
+        contentBase: './public',
+        inline: true,
+        historyApiFallback: true,
+        port: 8000
+    },
+
 };

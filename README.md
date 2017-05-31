@@ -1,7 +1,33 @@
-# weather_forecast
-Weather forecast for Ukraine cities
+# Main Dependencies
+
+- react
+- redux
+- react-redux
+- axios
+- react-sparklines
 
 
-Working example
+# Weather Forecast
+Weather forecast for Ukraine cities and average temperature, pressure, humidity on 5 nearest days.
+Please enter english letters.
 
-https://trubenko.github.io/weather_forecast/
+### Getting Started
+
+###### Clone from repo
+```
+> git clone https://github.com/trubenko/weather_forecast.git
+> cd weather_forecast
+```
+
+###### Install npm dependencies
+```
+> npm intall
+```
+
+###### Run webserver
+```
+> npm run start
+```
+
+###### Viewing the application in your browser
+`http://localhost:8000`
