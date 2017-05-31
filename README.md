@@ -31,3 +31,6 @@ Please enter english letters.
 
 ###### Viewing the application in your browser
 `http://localhost:8000`
+
+# Preview
+![wheather](https://cloud.githubusercontent.com/assets/14979770/26641576/b6fc2808-4633-11e7-8a8b-90ab1165f477.gif)
